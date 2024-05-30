@@ -59,11 +59,7 @@ const megaMenuDemo: MegamenuItem[] = [
 ];
 
 const demoChildMenus: NavItemType[] = [
-  {
-    id: ncNanoId(),
-    href: "/heroes-section",
-    name: "Hero",
-  },
+ 
   {
     id: ncNanoId(),
     href: "/karting-section",
@@ -78,25 +74,19 @@ const demoChildMenus: NavItemType[] = [
   },
   {
     id: ncNanoId(),
-    href: "/space-planet-section",
+    href: "/spaceplanet-section",
     name: "Space Planet",
     isNew: true,
   },
   {
     id: ncNanoId(),
-    href: "/fun-land-section",
-    name: "Fun Land",
-    isNew: true,
-  },
-  {
-    id: ncNanoId(),
-    href: "/event-station-section",
+    href: "/event-section",
     name: "Event Station",
     isNew: true,
   },
   {
     id: ncNanoId(),
-    href: "/clan-station-section",
+    href: "/clan-section",
     name: "clan Station",
     isNew: true,
   },
